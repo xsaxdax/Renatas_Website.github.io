@@ -1,0 +1,94 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+*{
+    font-family: 'Noto Sans';
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),
+     rgba(255, 255, 255, 0.7)),url( http://str.nau-arts.de/images/one.jpg);
+    background-color: transparent;
+    background-attachment: fixed;
+    
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: inline-block;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+  }
+
+
+img {
+    opacity: 0.5;
+  }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.right-side{
+    display: inline-block;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.contact-data{
+    margin-top: 110px;
+}
+
+.logo{
+    width: 300px;
+    height: 200px;
+}
+
+
+/*
+
+
+
+.outer{ 
+    border: 10px solid #dd7500;
+}
+
+.inner{
+
+        width: 500px;
+        height: 25px;
+        background-color:white;
+        margin-top: 50px;
+       
+        margin-left: -20px;
+      }
+
+
+.logo-circle{
+        height: 125px;
+        width: 125px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        
+    }
+    .arrow{
+        width: 50px;
+        height: 8px;
+        margin-top: -16px;
+        background-color: black;
+        margin-right: 125px;
+        margin-left: 150px;
+    }
+    .triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 86.6px 50px 0;
+    border-color: transparent #121314 transparent transparent;
+    }
+    
+*/
