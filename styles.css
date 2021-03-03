@@ -4,7 +4,7 @@
     font-family: 'Noto Sans';
     box-sizing: border-box;
     background-image: linear-gradient(rgba(255, 255, 255, 0.7),
-     rgba(255, 255, 255, 0.7)),url( http://str.nau-arts.de/images/one.jpg);
+     rgba(255, 255, 255, 0.7)),url('Backgroung.jpg');
     background-color: transparent;
     background-attachment: fixed;
     
