@@ -12,30 +12,36 @@
 }
 
 
-
 img {
     opacity: 0.5;
   }
+.hidden-name{
+    display: none;
+}
 
-.container{
+.top-side{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 10%;
 }
-
-.top-side h1{
-    text-align: center;
+.client-name {
+    margin-top: 80px;
+    margin-left: 1em;
 }
 
-.right-side{
-    display: inline-block;
-    margin-top: 65px;
-    margin-left: 75px;
-}
 
+.bottom-side{
+    display: flex;
+    justify-content: center;
+       
+}
+.bottom-side h1{
+    margin-right: 35px;
+}
 .contact-data{
-    margin-top: 110px;
+    margin-top: 35px;
+    margin-left: 2em;
 }
 
 .logo{
@@ -43,49 +49,44 @@ img {
     height: 200px;
 }
 
-/*
-@media only screen and (max-width: 650px) {
-    .right-side{
-        display: inline-block;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-  }
-*/
-@media only screen and (max-width: 625px) and (min-width:526px){
 
-    .right-side{
-        margin-left: 0px;
-    }
-}
-@media only screen and (max-width: 525px) {
-    .container {
-        margin-top: 50px;
+@media only screen and (max-width: 600px) {
+     
+    .container .top-side{
+        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        
+        justify-content: center ;
     }
-    .top-side img h1{
-        position: relative;
+
+    .container .bottom-side{
         display: flex;
-        justify-content: center;
-        
-    }
-    
-
-
-    .right-side{
-        display: inline-block;
-        margin-top: 0px;
-        margin-left: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left ;
     }
 
-    .contact-data{
-        margin-top: 0px;
-    }    
-  }
+   .bottom-side h1{
+       display: none;
+       padding-left: 0px;
+   }
 
+   .hidden-name{
+    display: unset;
+    padding-left: 0px;
+}
+
+   .client-name {
+    margin-top: 0px;
+    margin-left:0em;
+
+}
+.contact-data{
+    margin-top: 0px;
+    margin-left: 0em;
+}
+
+}   
 
 
 /*
