@@ -3,8 +3,8 @@
 *{
     font-family: 'Noto Sans';
     box-sizing: border-box;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7),
-     rgba(255, 255, 255, 0.7)),url('Backgroung.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),
+     rgba(255, 255, 255, 0.6)),url('Backgroung.jpg');
     background-color: transparent;
     background-attachment: fixed;
     
@@ -23,7 +23,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 10%;
+    padding-top: 10em;
 }
 .client-name {
     margin-top: 80px;
@@ -51,7 +51,9 @@ img {
 
 
 @media only screen and (max-width: 600px) {
-     
+     .top-side{
+         padding-top: 4em;
+     }
     .container .top-side{
         display: flex;
         flex-direction: column;
