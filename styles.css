@@ -3,13 +3,14 @@
 *{
     font-family: 'Noto Sans';
     box-sizing: border-box;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6),
+    background-color: #e0d8d8;
+   /* background-image: linear-gradient(rgba(255, 255, 255, 0.6),
      rgba(255, 255, 255, 0.6)),url('Backgroung.jpg');
     background-color: transparent;
     background-attachment: fixed;
     background-position: inherit;
     background-size: cover;
-    
+    */
    
 }
 
@@ -17,6 +18,7 @@
 img {
     opacity: 0.5;
   }
+
 .hidden-name{
     display: none;
 }
@@ -58,9 +60,9 @@ img {
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)  and (orientation: portrait){
      .top-side{
-         padding-top: 10vh;
+         padding-top: 5vh;
      }
     .container .top-side{
         display: flex;
@@ -98,49 +100,30 @@ img {
 
 }   
 
+@media only screen and (max-width: 700px)  and (orientation: landscape){
 
-/*
-
-
-
-.outer{ 
-    border: 10px solid #dd7500;
-}
-
-.inner{
-
-        width: 500px;
-        height: 25px;
-        background-color:white;
-        margin-top: 50px;
-       
-        margin-left: -20px;
-      }
-
-
-.logo-circle{
-        height: 125px;
-        width: 125px;
-        background-color: white;
-        border-radius: 50%;
-        display: inline-block;
-        position: absolute;
-        
+    .logo{
+        margin-left: 0px;
     }
-    .arrow{
-        width: 50px;
-        height: 8px;
-        margin-top: -16px;
-        background-color: black;
-        margin-right: 125px;
-        margin-left: 150px;
+    .client-name {
+        margin-top: 100px;
+        margin-left:0em;
+    
     }
-    .triangle{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 50px 86.6px 50px 0;
-    border-color: transparent #121314 transparent transparent;
+
+    .container .top-side{
+        padding-bottom: 0px;
     }
     
-*/
+    .container .bottom-side{
+        padding-top: 0px;
+        align-items: center;
+        justify-content: center ;
+    }
+
+    .contact-data{
+        margin-top: 0px;
+        margin-left: 2em;
+    }
+ 
+}
